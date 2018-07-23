@@ -1,0 +1,54 @@
+.article{
+    width: 100%;
+    margin: 0 auto;
+    height: 700px;
+    padding: 40px;
+    font: 24px/1.5 'Microsoft YaHei';
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}  
+
+.section1{
+       color: white;
+       background-image: url(../img/bg1.jpg);
+}
+
+.section2{
+       color: #FF8500;
+       background-image: url(../img/bg2.jpg);
+}
+
+.section3{
+    color: #FF8500;
+    background-image: url(../img/bg3.jpg);
+}
+
+.intro-section {
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+
+.intro-section .sub-heading {
+    font-size: 20px;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: #ffffff;
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+.button-container {
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+
+.footer {
+    height: 400px;
+}
+
+.copyright {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
