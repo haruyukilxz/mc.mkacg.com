@@ -1,23 +1,37 @@
-.article{
+h1 {
+	font-size: 4.0rem;
+	line-height: 3.75rem;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.article {
     width: 100%;
     margin: 0 auto;
-    height: 700px;
-    padding: 40px;
     font: 24px/1.5 'Microsoft YaHei';
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-}  
+}
 
-.sectionBG{
-       color: white;
-       background-image: url(../img/bg.jpg);
+.header {
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.color-overlay {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.sectionBG {
+    color: white;
+    background-image: url(../img/bg.jpg);
 }
 
 .intro-section {
-	margin-top: 100px;
-	margin-bottom: 150px;
+    margin-top: 250px;
+    margin-bottom: 150px;
 }
 
 .intro-section .sub-heading {
@@ -27,6 +41,11 @@
     color: #ffffff;
     margin-top: 40px;
     line-height: 30px;
+}
+
+.container-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .button-container {
@@ -39,6 +58,50 @@
 }
 
 .copyright {
-	margin-top: 10px;
-	margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.red-button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 15px 30px;
+    border: 0;
+    margin: 5px;
+    line-height: inherit;
+    -webkit-transition: all ease 0.25s;
+    transition: all ease 0.25s;
+    background: #f25454;
+    color: #ffffff;
+}
+
+.red-button:hover {
+    color: #ffffff;
+    background: #e64646;
+}
+
+.transparent-button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 14px 30px;
+    border: 0;
+    margin: 5px;
+    border: 1px solid #727272;
+    color: #ffffff;
+    background: transparent;
+    line-height: inherit;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-transition: all ease 0.25s;
+    transition: all ease 0.25s;
+}
+
+.transparent-button:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: #ffffff;
 }
