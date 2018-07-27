@@ -10,19 +10,9 @@
     background-size: cover;
 }  
 
-.section1{
+.sectionBG{
        color: white;
-       background-image: url(../img/bg1.jpg);
-}
-
-.section2{
-       color: #FF8500;
-       background-image: url(../img/bg2.jpg);
-}
-
-.section3{
-    color: #FF8500;
-    background-image: url(../img/bg3.jpg);
+       background-image: url(../img/bg.jpg);
 }
 
 .intro-section {
